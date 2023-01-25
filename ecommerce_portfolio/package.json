@@ -1,0 +1,11 @@
+{
+  "name": "ecommerce_portfolio",
+  "version": "1.0.0",
+  "description": "Codeacademy backend portfolio project to build an e-commerce REST API using Express, Node.js, and Postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Chris Cozens",
+  "license": "MIT"
+}
