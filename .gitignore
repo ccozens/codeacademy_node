@@ -122,5 +122,9 @@
 # Stores VSCode versions used for testing VSCode extensions
 */.vscode-test
 
+# other folders to ignore
 /api_dev_swagger
 /api_dev_swagger_nodeserver
+/node-swagger-api
+/swagger-editor-master
+/swagger-ui

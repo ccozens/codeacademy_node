@@ -1,11 +1,27 @@
 {
-  "name": "ecommerce_portfolio",
-  "version": "1.0.0",
-  "description": "Codeacademy backend portfolio project to build an e-commerce REST API using Express, Node.js, and Postgres",
-  "main": "index.js",
+  "name": "ecommerce-portfolio",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "test"
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "DEBUG=express-locallibrary-tutorial:* npm run devstart"
   },
-  "author": "Chris Cozens",
-  "license": "MIT"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.3",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.8.0",
+    "pug": "2.0.0-beta11",
+    "swagger-jsdoc": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
